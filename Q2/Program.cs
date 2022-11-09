@@ -29,14 +29,14 @@ namespace Q2
         public static string Left(this string value, int length)
         {
             string result = string.Empty;
-            if (string.IsNullOrEmpty(value) == true)
+            if (string.IsNullOrEmpty(value))
             { return result; }
             if (length <= 0)
             { return result; }
             if (value.Length < length)
             { return value; }
 
-            return result = value.Substring(0, length);
+            return value.Substring(0, length);
         }
     }
 }
