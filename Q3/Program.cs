@@ -21,7 +21,7 @@ namespace Q3
             Console.WriteLine(value.ToInt(-1));
         }
     }
-    public static class MyString
+    public static class StringExtensions
     {
         public static int ToInt(this string value, int defaultValue)
         {

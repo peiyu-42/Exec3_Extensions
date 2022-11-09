@@ -24,7 +24,7 @@ namespace Q2
             Console.WriteLine($"傳回前 {n}個字: {values.Left(n)}");
         }
     }
-    public static class MyString
+    public static class StringExtensions
     {
         public static string Left(this string value, int length)
         {

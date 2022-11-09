@@ -21,7 +21,7 @@ namespace Q1
             Console.WriteLine($"奇數: {number.IsOdd()}");
         }
     }
-    public static class MyMath
+    public static class MathExtensions
     {
         public static bool IsOdd(this int num)
         {
